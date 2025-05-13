@@ -1,9 +1,15 @@
 "use client";
 
+
 import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 import Form from "@components/Form";
+
+// Inside /update-prompt/page.js (Top level)
+
+export const dynamic = "force-dynamic";
+
 
 const UpdatePrompt = () => {
   const router = useRouter();
